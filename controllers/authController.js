@@ -87,7 +87,7 @@ exports.registerHandle = (req, res) => {
 
                 // send mail with defined transport object
                 const mailOptions = {
-                    from: '"Auth Admin" <nodejsa@gmail.com>', // sender address
+                    from: 'beullarugero8@gmail.com', // sender address
                     to: email, // list of receivers
                     subject: "Account Verification: NodeJS Auth ✔", // Subject line
                     generateTextFromHTML: true,
